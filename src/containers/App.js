@@ -17,6 +17,8 @@ function App() {
         }
     }
 
+
+
     useEffect(() => {
         fetchData().catch(e => console.error(e));
     }, []);
