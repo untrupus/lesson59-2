@@ -1,7 +1,7 @@
 import React from 'react';
 import './RefreshBtn.css';
 
-const RefreshBtn = React.memo(props => {
+const RefreshBtn = React.memo((props) => {
         return (
             <>
                 <button type="button" onClick={props.click}>Refresh</button>
